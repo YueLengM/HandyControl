@@ -2,8 +2,8 @@
   <outputsFolder>outputs</outputsFolder>
   <tasks>
     <task framework="net40" target=".NETFramework4.0" outputsFolder="net40" configuration="Release-Net40" domain="Net_40" buildLib="true" buildDemo="true"/>
-    <!-- <task framework="net45" target=".NETFramework4.5" outputsFolder="net45" configuration="Release" domain="Net_GE45" buildLib="true" buildDemo="true"/>
-    <task framework="net451" target=".NETFramework4.5.1" outputsFolder="net451" configuration="Release" domain="Net_GE45" buildLib="true" buildDemo="true"/>
+    <task framework="net45" target=".NETFramework4.5" outputsFolder="net45" configuration="Release" domain="Net_GE45" buildLib="true" buildDemo="true"/>
+    <!-- <task framework="net451" target=".NETFramework4.5.1" outputsFolder="net451" configuration="Release" domain="Net_GE45" buildLib="true" buildDemo="true"/>
     <task framework="net452" target=".NETFramework4.5.2" outputsFolder="net452" configuration="Release" domain="Net_GE45" buildLib="true" buildDemo="true"/>
     <task framework="net46" target=".NETFramework4.6" outputsFolder="net46" configuration="Release" domain="Net_GE45" buildLib="true" buildDemo="true"/>
     <task framework="net461" target=".NETFramework4.6.1" outputsFolder="net461" configuration="Release" domain="Net_GE45" buildLib="true" buildDemo="true"/>
