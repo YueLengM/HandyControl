@@ -58,7 +58,7 @@ namespace HandyControl.Controls
             var chrome = new WindowChrome
             {
                 CornerRadius = new CornerRadius(),
-                GlassFrameThickness = new Thickness(0, 0, 0, 1)
+                GlassFrameThickness = new Thickness(0, 0, 0, 0)
             };
 #else
             var chrome = new WindowChrome
@@ -68,7 +68,7 @@ namespace HandyControl.Controls
 
             if (SystemHelper.GetSystemVersionInfo() < SystemVersionInfo.Windows11_22H2)
             {
-                chrome.GlassFrameThickness = new Thickness(0, 0, 0, 1);
+                chrome.GlassFrameThickness = new Thickness(0, 0, 0, 0);
                 chrome.CornerRadius = new CornerRadius();
             }
 #endif
